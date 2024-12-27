@@ -1,0 +1,48 @@
+{
+  "name": "desireapi",
+  "version": "1.0.0",
+  "private": true,
+  "type": "cjs",
+  "scripts": {
+    "start": "nodemon src/app.js",
+    "dev": "ts-node --esm src/app.ts",
+    "build": "tsc",
+    "compile": "tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/connect-mongodb-session": "^2.4.7",
+    "@types/cors": "^2.8.17",
+    "@types/dotenv": "^8.2.3",
+    "@types/express-rate-limit": "^6.0.2",
+    "@types/helmet": "^4.0.0",
+    "@types/jsonwebtoken": "^9.0.7",
+    "@types/mongoose": "^5.11.97",
+    "@types/nodemon": "^1.19.6",
+    "@types/validator": "^13.12.2",
+    "connect-mongodb-session": "^5.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-rate-limit": "^7.4.1",
+    "express-session": "^1.18.1",
+    "helmet": "^8.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.8.0",
+    "nodemon": "^3.1.7",
+    "validator": "^13.12.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/express-session": "^1.18.0",
+    "@types/http-errors": "^2.0.4",
+    "@types/node": "^22.8.4",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
